@@ -1,2 +1,2 @@
 # odin-recipes
-By the end of this project, I will have created a basic website using HTML. This project will help me practice most frequently used HTML tags such as the heading, paragraph, image, and anchor tags. I will also practice making good Git commit messages.
+A basic HTML website that utilizes links, images, lists, paragraphs, and headings. I also practiced making frequent and concise commits.
