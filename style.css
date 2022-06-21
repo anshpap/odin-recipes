@@ -1,8 +1,32 @@
-h1 {
-    text-align: center;
+h1,
+h3,
+#recipe-list {
     font-family: "Trebuchet MS", "Lucida Grande", Verdana, sans-serif;
+}
+
+p,
+.ingredients,
+.steps {
+    font-family: Arial;
+}
+
+#recipe-list a:link,
+#recipe-list a:visited {
+    color: rgb(29, 127, 226);
+}
+
+h1,
+#recipe-list a:hover {
     background-color: lightgoldenrodyellow;
     color: hsl(358, 100%, 72%);
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 img {
@@ -15,24 +39,6 @@ img {
 #recipe-list {
     display: table;
     margin: 0 auto;
-    font-family: "Trebuchet MS", "Lucida Grande", Verdana, sans-serif;
     line-height: 1.8;
-    font-size: 16px;
     color: hsl(240, 70%, 50%);
-}
-
-#recipe-list a:link {
-    color: rgb(29, 127, 226);
-}
-
-#recipe-list a:visited {
-    color: rgb(29, 127, 226);
-}
-
-#recipe-list a:active {
-    background-color: lightgoldenrodyellow;
-}
-
-#recipe-list a:hover {
-    color: hsl(358, 100%, 72%);
 }
